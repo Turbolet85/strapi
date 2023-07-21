@@ -227,3 +227,7 @@ ul {
 
 	background: var(--primary-500);
 }
+
+body{
+	background: var(--primary-400);
+}

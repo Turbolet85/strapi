@@ -1,0 +1,26 @@
+.navLinks{
+	display: none;
+}
+
+.navLink{
+	cursor: pointer;
+
+	margin-top: 0.6rem;
+	padding: 0 1rem;
+
+	font-size: 1.25rem;
+	color: white;
+	text-transform: capitalize;
+	letter-spacing: var(--letterSpacing);
+
+	background: transparent;
+	border: none;
+}
+
+@media screen and (width >= 992px){
+	.navLinks{
+		display: flex;
+		align-self: stretch;
+		justify-content: center;
+	}
+}
