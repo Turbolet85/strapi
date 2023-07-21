@@ -15,6 +15,7 @@ const Navbar = () => {
     }
   };
   return (
+    // eslint-disable-next-line jsx-a11y/mouse-events-have-key-events
     <nav onMouseOver={handleSubmenu}>
       <div className={styles.navCenter}>
         <h3 className={styles.logo}>Strapi</h3>
